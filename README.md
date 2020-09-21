@@ -11,7 +11,7 @@ composer require xielei/waf
 ## 使用说明
 
 ``` php
-$waf = new \Xielei\Waf();
+$waf = new \Xielei\Waf\Waf();
 $waf->run();
 ```
 
@@ -49,7 +49,7 @@ $waf->run();
 ## 自定义拦截页面
 
 ``` php
-$waf = new \Xielei\Waf();
+$waf = new \Xielei\Waf\Waf();
 if(!$waf->check()){
     echo '非法请求';
     die;
