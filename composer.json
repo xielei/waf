@@ -1,0 +1,11 @@
+{
+    "name": "xielei/waf",
+    "description": "一个基于php的防火墙拦截程序，拦截sql注入和xss等",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xielei\\Waf\\": "src/"
+        }
+    }
+}
